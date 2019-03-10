@@ -65,6 +65,16 @@ public class Array<E> {
         return data[index];
     }
 
+    //获取数组最后位置的元素
+    public E getLast(){
+        return get(size - 1);
+    }
+
+    //获取数组第一个位置的元素
+    public E getFirst(){
+        return get(0);
+    }
+
     // 修改index索引位置的元素为e
     public void set(int index, E e){
         if(index < 0 || index >= size){
