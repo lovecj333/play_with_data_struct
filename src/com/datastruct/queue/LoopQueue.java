@@ -1,5 +1,6 @@
 package com.datastruct.queue;
 
+
 public class LoopQueue<E> implements Queue<E>{
 
     private E[] data;
