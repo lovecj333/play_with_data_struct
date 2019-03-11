@@ -14,7 +14,6 @@ public class LoopQueue<E> implements Queue<E>{
         size = 0;
     }
 
-
     public LoopQueue(){
         this(10);
     }
