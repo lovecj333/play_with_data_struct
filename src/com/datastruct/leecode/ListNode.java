@@ -24,7 +24,6 @@ public class ListNode {
     }
 
     // 以当前节点为头结点的链表信息字符串
-
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
