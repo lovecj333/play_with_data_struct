@@ -15,15 +15,20 @@ public class TestBST {
         //  / \    \   //
         // 2  4     8  //
         /////////////////
-        bst.levelOrder();
-        System.out.println();
-        bst.preOrderNR();
-        System.out.println();
-        bst.preOrder();
-        System.out.println();
-        bst.inOrder();
-        System.out.println();
-        bst.postOrder();
-        System.out.println();
+        int min = bst.minimum();
+        System.out.println("min="+min);
+        int max = bst.maximum();
+        System.out.println("max="+max);
+
+//        bst.levelOrder();
+//        System.out.println();
+//        bst.preOrderNR();
+//        System.out.println();
+//        bst.preOrder();
+//        System.out.println();
+//        bst.inOrder();
+//        System.out.println();
+//        bst.postOrder();
+//        System.out.println();
     }
 }
