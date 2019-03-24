@@ -15,11 +15,13 @@ public class TestBST {
         //  / \    \   //
         // 2  4     8  //
         /////////////////
-        int min = bst.minimum();
-        System.out.println("min="+min);
-        int max = bst.maximum();
-        System.out.println("max="+max);
-
+//        int min = bst.minimum();
+//        System.out.println("min="+min);
+//        int max = bst.maximum();
+//        System.out.println("max="+max);
+//        bst.removeMin();
+//        bst.removeMax();
+//        bst.remove(3);
 //        bst.levelOrder();
 //        System.out.println();
 //        bst.preOrderNR();
