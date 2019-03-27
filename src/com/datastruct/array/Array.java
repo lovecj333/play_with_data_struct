@@ -142,6 +142,16 @@ public class Array<E> {
         data = newData;
     }
 
+    // 交换两个索引的值
+    public void swap(int i, int j){
+        if(i < 0 || i >= size || j < 0 || j >= size){
+            throw new RuntimeException("Index is illegal");
+        }
+        E temp = data[i];
+        data[i] = data[j];
+        data[j] = temp;
+    }
+
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
